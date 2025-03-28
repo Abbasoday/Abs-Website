@@ -150,31 +150,51 @@
 }
 
 
+/* تصميم الـ nav-bar */
 .nav-buttons {
   position: fixed;
   top: 0px; /* وضعها في الأعلى مع مسافة صغيرة */
-  gap: 25px;
+  gap: 5px;
   background-color: #23005556;
   backdrop-filter: blur(10px);
   z-index: 1000;
   display: flex;
-  justify-content: center;
-  padding: 7px ; /* تعديل حسب الذوق */
+  padding: 7px;
   width: 100%;
   border: none;
-  flex-grow: ;
-  
+  flex-wrap: wrap; /* يسمح للعناصر بالالتفاف */
+  justify-content: center;
+  align-items: center;
 }
 
+/* تصميم الروابط داخل الناف بار */
 .nav-btn {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: clamp(21px, 2vw, 23px);
-    color: white;
-    text-decoration: none;
-    padding: 13px;
-    transition:  all 0.9s ease;
-    letter-spacing: 1px;
-    border: none;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: clamp(21px, 2vw, 23px);
+  color: white;
+  text-decoration: none;
+  padding: 13px;
+  transition: all 0.9s ease;
+  letter-spacing: 1px;
+  border: none;
+  flex-grow: 0.01; /* يسمح للنصوص بالتوسع لملء المساحة */
+  text-align: center; /* لتوسيط النص داخل الزر */
+}
+
+/* تعديل التصميم في الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .nav-buttons {
+    justify-content: flex-start; /* محاذاة العناصر لليسار في الشاشات الصغيرة */
+    gap: 5px; /* تقليل المسافة بين العناصر */
+    text-align: center;
+    justify-content: center;
+  }
+
+  .nav-btn {
+    font-size: clamp(20px, 4vw, 25px); /* تصغير حجم الخط في الشاشات الصغيرة */
+    flex-grow: 0; /* إزالة التوسع في الشاشات الصغيرة */
+    text-align: center;
+  }
 }
 
 
