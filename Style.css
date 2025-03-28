@@ -77,10 +77,10 @@
   position: absolute;
   width: 40vw;
   height: 110vh;
-  background: radial-gradient(circle, #6a00ff62 0%, rgba(10,10,10,0) 70%);
-  filter: blur(150px);
+  background: radial-gradient(circle, #a600ff71 0%, rgba(10,10,10,0) 70%);
+  filter: blur(130px);
   z-index: -10;
-  left: -5rem;
+  left: 2rem;
   margin-top: -20rem;
 }
 
@@ -88,10 +88,10 @@
   position: absolute;
   width: 40vw;
   height: 110vh;
-  background: radial-gradient(circle, #6a00ff62 0%, rgba(10,10,10,0) 70%);
-  filter: blur(150px);
+  background: radial-gradient(circle, #a600ff71 0%, rgba(10,10,10,0) 70%);
+  filter: blur(140px);
   z-index: -10;
-  left: 70rem;
+  left: 65rem;
   margin-top: 21rem;
 }
 
@@ -147,6 +147,7 @@
     align-items: center;
     height: 100vh;
     text-align: center;
+    
 }
 
 
