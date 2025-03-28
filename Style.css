@@ -77,10 +77,10 @@
   position: absolute;
   width: 40vw;
   height: 110vh;
-  background: radial-gradient(circle, #a600ff71 0%, rgba(10,10,10,0) 70%);
+  background: radial-gradient(circle, #a600ff70 0%, rgba(10,10,10,0) 70%);
   filter: blur(130px);
   z-index: -10;
-  left: 2rem;
+  left: 5rem;
   margin-top: -20rem;
 }
 
@@ -88,10 +88,10 @@
   position: absolute;
   width: 40vw;
   height: 110vh;
-  background: radial-gradient(circle, #a600ff71 0%, rgba(10,10,10,0) 70%);
+  background: radial-gradient(circle, #a600ff7b 0%, rgba(10,10,10,0) 70%);
   filter: blur(140px);
   z-index: -10;
-  left: 65rem;
+  left: 50rem;
   margin-top: 21rem;
 }
 
