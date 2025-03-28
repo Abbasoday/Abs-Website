@@ -61,7 +61,7 @@
 
 #page1 {
       position: relative;
-      background-color: #070614; /* احتياطًا لو لم يتم تحميل الصورة */
+      background-color: #0f0d2b; /* احتياطًا لو لم يتم تحميل الصورة */
       margin: 0;
       padding: 0;
       border: none;
@@ -96,16 +96,6 @@
 }
 
 
-.box {
-  width: 300px; /* عرض مصدر الإضاءة */
-  height: 10px; /* ارتفاع مصدر الإضاءة */
-  background: linear-gradient(to bottom, rgba(255, 0, 255, 0.9), rgba(0, 0, 0, 0));
-  border-radius: 5px;
-  position: absolute;
-  top: 150px; /* تعديل موقع الإضاءة عمودياً */
-  left: 100px; /* تعديل موقع الإضاءة أفقياً */
-  box-shadow: 0px 0px 50px 20px rgba(255, 0, 255, 0.8);
-}
 
 
 
@@ -129,7 +119,7 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;  
     opacity: 1;
-    color: #6f00ff;
+    color: #8800ff;
     left: 10rem;
     margin-top: -2%;
 
@@ -164,14 +154,15 @@
   position: fixed;
   top: 0px; /* وضعها في الأعلى مع مسافة صغيرة */
   gap: 25px;
-  background-color: #15003354;
+  background-color: #23005556;
   backdrop-filter: blur(10px);
   z-index: 1000;
   display: flex;
   justify-content: center;
-  padding: 10px ; /* تعديل حسب الذوق */
+  padding: 7px ; /* تعديل حسب الذوق */
   width: 100%;
   border: none;
+  flex-grow: ;
   
 }
 
@@ -196,7 +187,7 @@
   transition: all 0.9s ease-in-out;
   position: relative; /* ضروري لإضافة الأيقونة */
   gap: 25px; /* يضيف مسافة بين النص والأيقونة */
-  background-color: rgb(42, 2, 107);
+  background-color: rgb(50, 2, 129);
   border-radius: 6px;
   box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.354);
 }
@@ -248,8 +239,8 @@
   background-color: inherit;
   border-radius: 90px;
   font-weight: 600;
-  color: #f8eb00;
-  box-shadow: 0 0 0 2px #f8eb00;
+  color: #8800f8;
+  box-shadow: 0 0 0 2px #8800f8;
   cursor: pointer;
   overflow: hidden;
   transition: all 0.9s cubic-bezier(0.23, 1, 0.32, 1);
@@ -258,7 +249,7 @@
 .animated-button svg {
   position: absolute;
   width: 24px;
-  fill: #f8eb00;
+  fill: #8800f8;
   z-index: 9;
   transition: all 0.9s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -278,7 +269,7 @@
   transform: translate(-50%, -50%);
   width: 20px;
   height: 25px;
-  background-color: #f8eb00;
+  background-color: #8800f8;
   border-radius: 50%;
   opacity: 0;
   transition: all 0.9s cubic-bezier(0.23, 1, 0.32, 1);
@@ -317,7 +308,7 @@
 
 .animated-button:active {
   scale: 0.95;
-  box-shadow: 0 0 0 4px #f8eb00;
+  box-shadow: 0 0 0 4px #8800f8;
 }
 
 .animated-button:hover .circle {
@@ -348,7 +339,7 @@
 
 
 #int-section{
-    color: rgb(235, 200, 0);
+    color: #8800f8;
     display: flex;
     margin-top: 260px;
     font-family: "Bebas Neue", sans-serif;
